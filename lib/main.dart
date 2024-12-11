@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_social_sign_in_poc/google_sign_in_page.dart';
+import 'package:flutter_social_sign_in_poc/social_sign_in_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const GoogleSignInPage(),
+      home: const SocialSignInPage(),
     );
   }
 }
